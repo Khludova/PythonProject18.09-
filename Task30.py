@@ -1,0 +1,11 @@
+ATT = float(input("Введите ATT:"))
+COMP = float(input("Введите COMP:"))
+YDS = float(input("Введите YDS:"))
+TD = float(input("Введите TD:"))
+INT = float(input("Введите INT:"))
+a = max(0.0, min(2.375, (COMP / ATT - 0.3) * 5))
+b = max(0.0, min(2.375, (YDS / ATT - 3) * 0.25))
+c = max(0.0, min(2.375, (TD / ATT) * 20))
+d = max(0.0, min(2.375, 2.375 - (INT / ATT * 25)))
+passer_rating = ((a + b + c + d) / 6) * 100
+print(passer_rating)

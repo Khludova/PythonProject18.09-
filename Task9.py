@@ -1,0 +1,7 @@
+flight = input("Номер рейса:")
+airline = input ("Название авиакомпании:")
+airline2 = input("Name of the airline:")
+city = input ("Город прилета:")
+city2 = input ("Arrival city:")
+print (f"Заканчивается посадка на рейс {flight} авиакомпании {airline} до {city}")
+print (f"This is the final boarding call for {airline2} flight {flight} to {city2}")
